@@ -1,8 +1,33 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    margin: 0px auto;
     font-size: 12px;
+    text-align: center;
+    display: inline-block;
 }
+main {
+    margin: auto;
+    width: 90%;
+}
+.imagenes-productos {
+    width: 200px;
+    margin: auto;
+}
+
+.productos-main{
+    margin-bottom: 10px solid #ebebeb;
+    margin: auto;
+    border: 15px #ebebeb solid;
+}
+.productos-descripcion {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    background-color: white;
+}
+ul {
+    list-style: none;
+}
+
 header {
     background-color: #EAC926;
 }
@@ -13,11 +38,77 @@ h4 {
     font-size:18px;
 }
 .descuentos {
-    font-size: 16px
+    font-size: 16px;
+    color: yellowgreen;
 }
 .descripciones {
     font-size: 16px;
 }
+.burger-menu {
+    background-color: rgb(7, 7, 139);
+    margin: auto;
+    color: white;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor:pointer;
+} 
+
+.iconos-envio{
+    color: greenyellow;
+}
+
+.iconos-footer {
+    width: 100px;
+    margin-bottom: 10px;
+    size: 2em;
+}
+
 footer {
     text-align: center;
+    margin: auto;
+}
+.header-alineado {
+    margin: auto;
+}
+@media (min-width: 361px) {
+    .descripcion-productos {
+        display: none;
+    }
+    .site {
+        display: none;
+    }
+    .login-bar {
+        display: none;
+    }
+}
+@media (min-width: 769px) {
+   .productos-main{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+    .descripcion-productos {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .login-bar {
+        display: block;
+    }
+    .site {
+        display: block;
+    }
+    nav {
+        text-align: left;
+    }
+    header {
+        text-align: left;
+    }
+    .barra-busqueda {
+        text-align: center;
+    }
 }
