@@ -14,35 +14,38 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <!--Iconos-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3b345a021c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
 
-    <header class="header-alineado">
-        <img src="/images/logo-mercado-liebre.svg" width=150 alt="Logo Mercado Liebre">
-        <p class= "barra-busqueda"><i class="fas fa-search"></i>Lugar para poner barra de busqueda</p>
-        <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-        <nav>
-            <div class="site">
-                <ul>
-                    <li><a href=""></a>Ofertas</li>
-                    <li><a href=""></a>Tiendas Oficiales</li>
-                    <li><a href=""></a>Vender</li>
-                    <li><a href=""></a>Ayuda</li>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="/images/logo-mercado-liebre.svg" class="logo" alt="Logo Mercado Liebre">
+            <p class="barra-busqueda"><i class="fas fa-search"></i>Lugar para poner barra de busqueda</p>
+            <h2 class="copy-header"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
+        </div>
+        <nav class="main-navbar">
+                <ul class="left-navbar">
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="">Tiendas Oficiales</a></li>
+                    <li><a href="">Vender</a></li>
+                    <li><a href="">Ayuda</a></li>
                 </ul>
-            </div>
-            <div class="login-bar">
-                <ul>
-                    <li><a href=""></a>Creá tu cuenta <i class="fas fa-id-card"></i></li>
-                    <li><a href=""></a>Ingresá <i class="fas fa-sign-in-alt"></i></li>
-                    <li><a href=""></a>Mis compras <i class="fas fa-shopping-basket"></i></li>
+
+                <ul class="right-navbar">
+                    <li><a href="">Creá tu cuenta </a><i class="fas fa-id-card"></i></li>
+                    <li><a href="">Ingresá </a><i class="fas fa-sign-in-alt"></i></li>
+                    <li><a href="">Mis compras </a><i class="fas fa-shopping-basket"></i></li>
                 </ul>
-            </div>
-            <div class="burger-menu">
-                <i class="fas fa-bars"></i>
-            </div>
         </nav>
+                     
+            <div><a href="#" class="burger-menu">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        
     </header>
 
     <main>
@@ -132,6 +135,7 @@
             <div class="productos-main">
                 <img src="/images/img-tv-samsung-smart.jpg" alt="" class="imagenes-productos">
                 <div class="productos-descripcion">
+                    <i class="fas fa-shipping-fast"></i>
                     <p class="precios">$23.200</p>
                     <p class="descuentos">5% OFF</p>
                     <h5 class="descripciones">SmartTV Samsung 43"</h5>
