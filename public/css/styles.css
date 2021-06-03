@@ -12,9 +12,8 @@ main {
 }
 .imagenes-productos {
     width: 200px;
-    margin: auto;
+    margin: 20px 0 20px 0;
 }
-
 .productos-main{
     margin-bottom: 10px solid #ebebeb;
     margin: auto;
@@ -24,16 +23,16 @@ main {
     border-top: 1px solid #ebebeb;
     padding: 15px;
     background-color: white;
-
 }
-
 .main-header {
     background-color: #EAC926;
     padding: 20px;
-    
 }
 .logo{
     width: 200px;
+}
+.banner img {
+    max-width: 100%;
 }
 .copy-header {
     font-weight: 400;
@@ -64,20 +63,30 @@ h4 {
     padding: 15px 0;
     cursor:pointer;
 } 
-
+.icono-cuotas {
+    margin-right: 10px;
+    font-size: 25px;
+}
+.icono-busqueda {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.iconos-rightbar {
+    margin-left: 10px;
+    font-size: 25px;
+}
 .iconos-envio{
     color: greenyellow;
+    font-size: 25px;
 }
-
 .iconos-footer {
+    font-size: 25px;
     width: 100px;
-    margin-bottom: 10px;
-    size: 2em;
+    margin: 30px 0 0 0;  
 }
-
 footer {
     text-align: center;
-    margin: auto;
+    margin: 30px 0 40px 0;
 }
 .main-navbar ul{
     list-style: none;
@@ -107,6 +116,18 @@ footer {
     .descripcion-productos {
         display: block;
     }
+    .iconos-rightbar {
+        font-size: 15px;
+    }
+    .icono-cuotas {
+        font-size: 15px;
+    }
+    .icono-busqueda {
+        font-size: 15px;
+    }
+    .copy-header{
+        font-size: 13px;
+    }
     .burger-menu {
         display: none;
     }
@@ -121,17 +142,14 @@ footer {
         margin: 0 5px;
     }
     .main-header-top-bar {
-        display: block;
+        display: flex;
+        justify-content: space-between;
     }
     .main-header {
         text-align: center;
     }
     .barra-busqueda {
         text-align: center;
-    }
-    .main-header-top-bar {
-        display: flex;
-        justify-content: space-between;
     }
     .copy-header{
         max-width: 350px;
@@ -140,10 +158,13 @@ footer {
 
 }
 @media (min-width: 1200px){
-    .main-header-top-bar, .main-navbar {
-        max-width: 1200px;
+    
+
+    .main-header {
+        text-align: center;
     }
     .main-header-top-bar{
+        display: flex;
         align-items: center;
         border: 0;
     }
