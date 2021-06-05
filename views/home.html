@@ -24,7 +24,8 @@
             <div class="contenedor-logo-busqueda">
                 <img src="/images/logo-mercado-liebre.svg" class="logo" alt="Logo Mercado Liebre">
                 <div class="barra-busqueda"><a href="#"></a>
-                    <input type="search" name="barra-busqueda" placeholder="Buscar productos, marcas, etc." style="width: 100%;"></input>
+                    <input type="search" name="barra-busqueda" placeholder="Buscar productos, marcas, etc."
+                        style="width: 100%;"></input>
                     <i class="fas fa-search icono-busqueda"></i>
                 </div>
             </div>
@@ -60,7 +61,7 @@
     <main>
 
         <div class="titulo-secciones">
-            <h4>Basado en tu ultima visita</h4>
+            <h4>Basado en tu última visita</h4>
         </div>
 
         <div class="contenedor-productos">
@@ -182,33 +183,71 @@
                 </div>
             </article>
         </div>
-
     </main>
 
+    <!--Formulario-->
+
+    <form action="/crear-producto" method="POST" class="create-form" style="width: 90%;">
+        <div class="control-formulario">
+            <label>Nombre del producto:</label>
+            <input type="text" name="nombre" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Precio:</label>
+            <input type="text" name="precio" placeholder="123.56" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Categoría:</label>
+            <select class="control">
+                <option name="hogar">Hogar</option>
+                <option name="electro">Electro</option>
+                <option name="indumentaria">Indumentaria</option>
+            </select>
+        </div>
+        <div class="control-formulario">
+            <label>Ciudad:</label>
+            <select class="control">
+                <option name="buenos-aires">Buenos Aires</option>
+                <option name="rosario">Rosario</option>
+                <option name="mendoza">Mendoza</option>
+            </select>
+        </div>
+        <div class="control-formulario">
+            <label>Descripción:</label>
+            <textarea name="descripcion" class="control"></textarea>
+        </div>
+        <div class="control-formulario">
+            <label>Esta en Oferta:</label>
+            <input type="radio" name="enOferta">
+        </div>
+        <button type="submit" class="boton-formulario">Guardar</button>
+        <button type="reset" class="boton-formulario">Borrar</button>
+    </form>
+
+
+
     <footer>
-        <article>
-            <div><i class="fas fa-credit-card iconos-footer"></i>
-                <h5>Pagá con tarjeta o en efectivo</h5>
-                <p>Con MercadoLiebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre
-                    es seguro!</p>
-            </div>
+        <div class="texto-footer"><i class="fas fa-credit-card iconos-footer"></i>
+            <h5>Pagá con tarjeta o en efectivo</h5>
+            <p>Con MercadoLiebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre
+                es seguro!</p>
+        </div>
 
 
-            <div><i class="fas fa-gift iconos-footer"></i>
-                <h5>Envío gratis desde $2.500</h5>
-                <p>Solo por estar registrad@ en Mercado Liebre tenes envíos gratis en miles de productos. Es un
-                    beneficio de Mercado Puntos</p>
-            </div>
+        <div class="texto-footer"><i class="fas fa-gift iconos-footer"></i>
+            <h5>Envío gratis desde $2.500</h5>
+            <p>Solo por estar registrad@ en Mercado Liebre tenes envíos gratis en miles de productos. Es un
+                beneficio de Mercado Puntos</p>
+        </div>
 
 
-            <div><i class="fas fa-user-shield iconos-footer"></i>
-                <h5>Seguridad, de principio a fin</h5>
-                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre
-                    protegid@</p>
-            </div>
+        <div class="texto-footer"><i class="fas fa-user-shield iconos-footer"></i>
+            <h5>Seguridad, de principio a fin</h5>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre
+                protegid@</p>
+        </div>
 
-            <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
-        </article>
+        <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
     </footer>
 </body>
 

@@ -166,6 +166,29 @@ footer {
     padding: 5px 0;
     font-size: 17px;
 }
+.create-form {
+    padding: 20px 15px;
+}
+.control-formulario {
+    margin-bottom: 15px;
+}
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+.control {
+    width: 100%;
+    padding: 8px;
+}
+.boton-formulario {
+    background-color: #03264C;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
 @media (min-width: 360px) {
     .contenedor-precio-descuento .precios {
@@ -221,6 +244,11 @@ footer {
     .icono-busqueda {
         display: block;
     }
+    .titulo-secciones {
+        text-align: left;
+        margin-left: 25px;
+        color: #666666;
+    }
     .contenedor-productos {
         display: flex;
         flex-wrap: wrap;
@@ -264,6 +292,9 @@ footer {
     }
     .main-header {
         text-align: center;
+    }
+    .texto-footer {
+        font-size: 15px;
     }
 
 @media (min-width: 1200px) {
