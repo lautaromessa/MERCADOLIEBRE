@@ -119,6 +119,7 @@ h4 {
 }
 .barra-busqueda {
     display: flex;
+    margin-left: 15px;
 }
 
 .icono-busqueda {
@@ -168,6 +169,7 @@ footer {
 }
 .create-form {
     padding: 20px 15px;
+    margin: auto;
 }
 .control-formulario {
     margin-bottom: 15px;
@@ -203,7 +205,6 @@ footer {
     }
     .barra-busqueda {
         width: 50%;
-        margin-left: 10px;
         height: 40px;
     }
     .icono-busqueda {
@@ -222,6 +223,10 @@ footer {
     }
     .main-navbar {
         display: none;
+    }
+    .create-form {
+        text-align: left;
+        width: 80%;
     }
 }
 
@@ -295,6 +300,10 @@ footer {
     }
     .texto-footer {
         font-size: 15px;
+    }
+
+    .create-form {
+        width: 90%;
     }
 
 @media (min-width: 1200px) {
