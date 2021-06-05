@@ -21,9 +21,13 @@
 <body>
     <header class="main-header">
         <div class="main-header-top-bar">
-            <img src="/images/logo-mercado-liebre.svg" class="logo" alt="Logo Mercado Liebre">
-            <h3 class="barra-busqueda"><a href="#"></a><i class="fas fa-search icono-busqueda"></i>Lugar para poner
-                barra de busqueda</h3>
+            <div class="contenedor-logo-busqueda">
+                <img src="/images/logo-mercado-liebre.svg" class="logo" alt="Logo Mercado Liebre">
+                <div class="barra-busqueda"><a href="#"></a>
+                    <input type="search" name="barra-busqueda" placeholder="Buscar productos, marcas, etc." style="width: 100%;"></input>
+                    <i class="fas fa-search icono-busqueda"></i>
+                </div>
+            </div>
             <h3 class="copy-header"><i class="fas fa-hand-holding-usd icono-cuotas"></i>Comprá en cuotas y sin tarjeta
                 de crédito
             </h3>
@@ -48,104 +52,136 @@
             </a>
         </div>
     </header>
+
     <div class="banner">
         <img src="/images/img-home-banner.jpg" alt="">
     </div>
+
     <main>
-        <article>
+
+        <div class="titulo-secciones">
             <h4>Basado en tu ultima visita</h4>
-            <div class="productos-main">
-                <img src="/images/img-cafetera-moulinex.jpg" alt="" class="imagenes-productos">
-                <div class="productos-descripcion">
+        </div>
+
+        <div class="contenedor-productos">
+            <article class="producto">
+                <div class="imagenes-productos">
+                    <img src="/images/img-cafetera-moulinex.jpg" width="100%">
+                </div>
+                <div class="contenedor-precio-descuento">
                     <i class="fas fa-shipping-fast iconos-envio"></i>
                     <p class="precios">$6770</p>
                     <p class="descuentos">40% OFF</p>
-                    <h5 class="descripciones">Cafetera Moulinex</h5>
-                    <p class="descripcion-productos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-            </div>
+                <div class="contenedor-producto-descripcion">
+                    <p>Cafetera Moulinex</p>
+                </div>
+            </article>
 
-            <div class="productos-main">
-                <img src="/images/img-macbook-pro-2019.jpg" alt="" class="imagenes-productos">
-                <div class="productos-descripcion">
+            <article class="producto">
+                <div class="imagenes-productos">
+                    <img src="/images/img-macbook-pro-2019.jpg" width="100%">
+                </div>
+                <div class="contenedor-precio-descuento">
                     <i class="fas fa-shipping-fast iconos-envio"></i>
                     <p class="precios">$230.000</p>
                     <p class="descuentos">20% OFF</p>
-                    <h5 class="descripciones">MacBook Pro 2019</h5>
-                    <p class="descripcion-productos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-            </div>
+                <div class="contenedor-producto-descripcion">
+                    <p>MacBook Pro 2019</p>
+                </div>
+            </article>
 
-            <div class="productos-main">
-                <img src="/images/img-samsung-galaxy-s10.jpg" alt="" class="imagenes-productos">
-                <div class="productos-descripcion">
+            <article class="producto">
+                <div class="imagenes-productos">
+                    <img src="/images/img-samsung-galaxy-s10.jpg" width="100%">
+                </div>
+                <div class="contenedor-precio-descuento">
                     <i class="fas fa-shipping-fast iconos-envio"></i>
                     <p class="precios">$70.500</p>
                     <p class="descuentos">10% OFF</p>
-                    <h5 class="descripciones">Samsung Galaxy S10</h5>
-                    <p class="descripcion-productos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-            </div>
+                <div class="contenedor-producto-descripcion">
+                    <p>Samsung Galaxy S10</p>
+                </div>
+            </article>
 
-            <div class="productos-main">
-                <img src="/images/img-tv-samsung-smart.jpg" alt="" class="imagenes-productos">
-                <div class="productos-descripcion">
+            <article class="producto">
+                <div class="imagenes-productos">
+                    <img src="/images/img-tv-samsung-smart.jpg" width="100%">
+                </div>
+                <div class="contenedor-precio-descuento">
                     <i class="fas fa-shipping-fast iconos-envio"></i>
                     <p class="precios">$23.200</p>
                     <p class="descuentos">5% OFF</p>
-                    <h5 class="descripciones">SmartTV Samsung 43"</h5>
-                    <p class="descripcion-productos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-            </div>
-        </article>
+                <div class="contenedor-producto-descripcion">
+                    <p>SmartTV Samsung 43"</p>
+                </div>
+            </article>
+        </div>
 
-        <article>
+        <div class="titulo-secciones">
             <h4>Sección de Ofertas</h4>
+        </div>
 
-            <div class="productos-main">
-                <img src="/images/img-cafetera-moulinex.jpg" alt="" class="imagenes-productos">
-                <div class="productos-descripcion">
+        <div class="contenedor-productos">
+            <article class="producto">
+                <div class="imagenes-productos">
+                    <img src="/images/img-cafetera-moulinex.jpg" width="100%">
+                </div>
+                <div class="contenedor-precio-descuento">
                     <i class="fas fa-shipping-fast iconos-envio"></i>
                     <p class="precios">$6770</p>
                     <p class="descuentos">40% OFF</p>
-                    <h5 class="descripciones">Cafetera Moulinex</h5>
-                    <p class="descripcion-productos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-            </div>
+                <div class="contenedor-producto-descripcion">
+                    <p>Cafetera Moulinex</p>
+                </div>
+            </article>
 
-            <div class="productos-main">
-                <img src="/images/img-macbook-pro-2019.jpg" alt="" class="imagenes-productos">
-                <div class="productos-descripcion">
+            <article class="producto">
+                <div class="imagenes-productos">
+                    <img src="/images/img-macbook-pro-2019.jpg" width="100%">
+                </div>
+                <div class="contenedor-precio-descuento">
                     <i class="fas fa-shipping-fast iconos-envio"></i>
                     <p class="precios">$230.000</p>
                     <p class="descuentos">20% OFF</p>
-                    <h5 class="descripciones">MacBook Pro 2019</h5>
-                    <p class="descripcion-productos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-            </div>
+                <div class="contenedor-producto-descripcion">
+                    <p>MacBook Pro 2019</p>
+                </div>
+            </article>
 
-            <div class="productos-main">
-                <img src="/images/img-samsung-galaxy-s10.jpg" alt="" class="imagenes-productos">
-                <div class="productos-descripcion">
+            <article class="producto">
+                <div class="imagenes-productos">
+                    <img src="/images/img-samsung-galaxy-s10.jpg" width="100%">
+                </div>
+                <div class="contenedor-precio-descuento">
                     <i class="fas fa-shipping-fast iconos-envio"></i>
                     <p class="precios">$70.500</p>
                     <p class="descuentos">10% OFF</p>
-                    <h5 class="descripciones">Samsung Galaxy S10</h5>
-                    <p class="descripcion-productos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-            </div>
+                <div class="contenedor-producto-descripcion">
+                    <p>Samsung Galaxy S10</p>
+                </div>
+            </article>
 
-            <div class="productos-main">
-                <img src="/images/img-tv-samsung-smart.jpg" alt="" class="imagenes-productos">
-                <div class="productos-descripcion">
+            <article class="producto">
+                <div class="imagenes-productos">
+                    <img src="/images/img-tv-samsung-smart.jpg" width="100%">
+                </div>
+                <div class="contenedor-precio-descuento">
                     <i class="fas fa-shipping-fast iconos-envio"></i>
                     <p class="precios">$23.200</p>
                     <p class="descuentos">5% OFF</p>
-                    <h5 class="descripciones">SmartTV Samsung 43"</h5>
-                    <p class="descripcion-productos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-            </div>
-        </article>
+                <div class="contenedor-producto-descripcion">
+                    <p>SmartTV Samsung 43"</p>
+                </div>
+            </article>
+        </div>
 
     </main>
 
