@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px auto;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     display: inline-block;
     width: 100%;
@@ -76,7 +76,7 @@ main article i {
 }
 
 .logo {
-    width: 200px;
+    width: 155px;
 }
 
 .banner img {
@@ -86,6 +86,7 @@ main article i {
 .copy-header {
     font-weight: 400;
     text-align: center;
+    font-size: 15px;
 }
 
 h4 {
@@ -118,9 +119,14 @@ h4 {
     margin-right: 10px;
     font-size: 25px;
 }
+
 .barra-busqueda {
     display: flex;
     margin-left: 15px;
+}
+
+.barra-busqueda input {
+    height: 45px;
 }
 
 .icono-busqueda {
@@ -130,7 +136,6 @@ h4 {
     border: 1px solid black;
     background-color: white;
     padding: 2px;
-
 }
 
 .iconos-rightbar {
@@ -148,11 +153,13 @@ h4 {
     font-size: 25px;
     width: 100px;
     margin: 30px 0 0 0;
+    color: #03264C;
 }
 
 footer {
     text-align: center;
     margin: 30px 0 40px 0;
+    background-color: white;
 }
 
 .main-navbar ul {
@@ -168,29 +175,69 @@ footer {
     padding: 5px 0;
     font-size: 17px;
 }
+
+.login-form {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
 .create-form {
     padding: 20px 15px;
     margin: auto;
 }
+
 .control-formulario {
     margin-bottom: 15px;
+    border: none;
 }
-.control-formulario label {
+
+.control-formulario .titulo-label {
     margin-bottom: 5px;
-    font-style: italic;
+    font-style: normal;
     display: block;
+    font-weight: bold;
 }
+
 .control {
-    width: 100%;
+    width: 95%;
     padding: 8px;
+    border-radius: 5px;
+    border: none;
 }
+
+.perfil-usuario {
+    display: flex;
+    text-align: left;
+    width: 76%;
+    margin-top: 16px;
+}
+
+.intereses-usuario {
+    text-align: left;
+    width: 76%;
+    margin-top: 16px;
+    display: grid;
+}
+
+.intereses-usuario label {
+    margin: 10px;
+}
+
+.intereses-usuario label input {
+    margin-right: 10px;
+}
+
 .boton-formulario {
     background-color: #03264C;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
+    width: 98%;
+    margin-bottom: 15px;
 }
 
 @media (min-width: 360px) {
@@ -200,9 +247,6 @@ footer {
     .contenedor-logo-busqueda {
         display: flex;
         align-items: center;
-    }
-    .logo {
-        width: 50%;
     }
     .barra-busqueda {
         width: 50%;
@@ -245,10 +289,13 @@ footer {
     }
     .barra-busqueda {
         font-size: 16px;
-        height: 20px;
+        align-items: center;
     }
     .icono-busqueda {
         display: block;
+    }
+    .copy-header {
+        font-size: 12px;
     }
     .titulo-secciones {
         text-align: left;
@@ -302,42 +349,43 @@ footer {
     .texto-footer {
         font-size: 15px;
     }
-
     .create-form {
         width: 90%;
     }
-
-@media (min-width: 1200px) {
-    .contenedor-productos .producto {
-        width: 22%;
+    .perfil-usuario {
+        width: 35%;
     }
-    .main-header {
-        text-align: center;
+    @media (min-width: 1200px) {
+        .contenedor-productos .producto {
+            width: 22%;
+        }
+        .main-header {
+            text-align: center;
+        }
+        .main-header-top-bar {
+            display: flex;
+            align-items: center;
+            border: 0;
+        }
+        .main-navbar {
+            margin-top: 50px;
+        }
+        .main-navbar li {
+            margin: 0 10px;
+        }
+        .main-navbar a {
+            font-size: 19px;
+        }
+        .copy-header {
+            max-width: none;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .logo {
+            width: 360px;
+        }
+        .barra-busqueda {
+            font-size: 16px;
+        }
     }
-    .main-header-top-bar {
-        display: flex;
-        align-items: center;
-        border: 0;
-    }
-    .main-navbar {
-        margin-top: 50px;
-    }
-    .main-navbar li {
-        margin: 0 10px;
-    }
-    .main-navbar a {
-        font-size: 19px;
-    }
-    .copy-header {
-        max-width: none;
-        font-size: 18px;
-        font-weight: 400;
-    }
-    .logo {
-        width: 360px;
-    }
-    .barra-busqueda {
-        font-size: 16px;
-    }
-}
 }
