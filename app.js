@@ -9,7 +9,7 @@ app.use(express.static(publicPath))
 const viewsPath = path.resolve(__dirname, './views')
 app.use(express.static(viewsPath))
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('Servidor corriendo en el puerto 3000')
 });
 

@@ -32,14 +32,6 @@ main article i {
     width: 100%;
 }
 
-.caja-datos {
-    height: 0px;
-    transition: all 300ms;
-}
-article:hover .caja-datos{
-    height: 100px;
-}
-
 .contenedor-productos {
     margin-bottom: 10px solid #ebebeb;
     margin: auto;
@@ -69,6 +61,14 @@ article:hover .caja-datos{
     color: grey;
     padding-left: 10px;
     background-color: white;
+    transition: all 1s;
+    display: none;
+    height: 0;
+}
+
+article:hover .contenedor-producto-descripcion {
+    display: block;
+    height: 40px;
 }
 
 .contenedor-precio-descuento .precios {
@@ -185,6 +185,9 @@ footer {
 }
 .iconos-footer:hover {
     color: greenyellow;
+}
+.copyright-footer{
+    background-color: white;
 }
 
 .main-navbar ul {
@@ -454,12 +457,13 @@ footer {
         }
         .contenedor-footer {
             display: flex;
+            justify-content: center;
         }
         .iconos-footer {
             justify-content: center;
         }
         .texto-footer {
-            font-size: 13px;
+            font-size: 13   px;
             width: 450px;
         }
 
