@@ -85,7 +85,7 @@ article:hover .contenedor-producto-descripcion {
     position: fixed;
     top: 0;
     z-index: 100;
-    width: 100vw;
+    width: 100%;
 }
 
 .logo {
@@ -126,7 +126,6 @@ h4 {
     border-radius: 8px;
     padding: 15px 0;
     cursor: pointer;
-    margin-right: 175px;
 }
 
 .icono-cuotas {
@@ -277,7 +276,7 @@ footer {
     margin-bottom: 15px;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 320px) {
     .contenedor-precio-descuento .precios {
         font-size: 18px;
     }
@@ -290,7 +289,7 @@ footer {
         margin-right: 44px;
     }
     .barra-busqueda {
-        width: 50%;
+        width: 68%;
         height: 40px;
     }
     .icono-busqueda {
@@ -334,7 +333,7 @@ footer {
     .barra-busqueda {
         font-size: 16px;
         align-items: center;
-        width: 60%;
+        width: 70%;
     }
     .icono-busqueda {
         display: block;
