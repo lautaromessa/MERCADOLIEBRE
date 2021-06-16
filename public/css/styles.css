@@ -421,7 +421,6 @@ footer {
         .logo {
             width: 235px;
         }
-
         .main {
             margin-top: 136px;
         }
@@ -436,7 +435,6 @@ footer {
             display: flex;
             align-items: center;
             border: 0;
-    
         }
         .main-navbar .right-navbar {
             margin-right: 60px;
@@ -475,5 +473,27 @@ footer {
             font-size: 13 px;
             width: 450px;
         }
+    }
+}
+
+@media (min-width: 1300px) {
+    main {
+        margin-top: 164px;
+    }
+
+    .contenedor-logo-busqueda {
+        width: 71%;
+    }
+    .barra-busqueda {
+        width: 75%;
+    }
+    .banner img {
+        height: 164px;
+    }
+    .main-header {
+        height: 147px;
+    }
+    .main-navbar {
+        margin-top: 0px;
     }
 }
