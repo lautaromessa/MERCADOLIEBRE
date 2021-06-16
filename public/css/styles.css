@@ -332,11 +332,11 @@ footer {
     }
     .banner img {
         width: 100%;
-        height: 90px;
+        height: 115px;
     }
     .contenedor-logo-busqueda {
         display: flex;
-        width: 54%;
+        width: 61%;
         padding-left: 15px;
     }
     .barra-busqueda {
