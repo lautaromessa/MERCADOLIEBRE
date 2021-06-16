@@ -215,7 +215,7 @@ footer {
     text-align: center;
     width: 60%;
     margin: auto;
-    margin-top: 220px;
+    margin-top: 170px;
 }
 
 .boton-formulario {
@@ -229,7 +229,7 @@ footer {
 .create-form {
     padding: 20px 15px;
     margin: auto;
-    margin-top: 210px;
+    margin-top: 140px;
 }
 
 .control-formulario {
@@ -313,6 +313,9 @@ footer {
     }
     .main-navbar {
         display: none;
+    }
+    .burger-menu:target .main-navbar {
+        display: block;
     }
     .create-form {
         text-align: left;
@@ -409,70 +412,72 @@ footer {
     }
     .create-form {
         width: 90%;
-        margin-top: 178px;
+        margin-top: 125px;
     }
     .login-form {
-        margin-top: 200px;
+        margin-top: 136px;
     }
     .perfil-usuario {
         width: 35%;
     }
-    @media (min-width: 1024px) {
-        .logo {
-            width: 235px;
-        }
-        .main {
-            margin-top: 136px;
-        }
-        .contenedor-productos .producto {
-            width: 22%;
-        }
-        .main-header {
-            text-align: center;
-            height: 120px;
-        }
-        .main-header-top-bar {
-            display: flex;
-            align-items: center;
-            border: 0;
-        }
-        .main-navbar .right-navbar {
-            margin-right: 60px;
-        }
-        .main-navbar li {
-            margin: 0 10px;
-        }
-        .main-navbar a {
-            font-size: 19px;
-        }
-        .copy-header {
-            max-width: none;
-            font-size: 16px;
-            font-weight: 400;
-        }
-        .contenedor-logo-busqueda {
-            width: 64%;
-        }
-        .barra-busqueda {
-            font-size: 19px;
-        }
-        .create-form {
-            margin-top: 220px;
-        }
-        .login-form {
-            margin-top: 250px;
-        }
-        .contenedor-footer {
-            display: flex;
-            justify-content: center;
-        }
-        .iconos-footer {
-            justify-content: center;
-        }
-        .texto-footer {
-            font-size: 13 px;
-            width: 450px;
-        }
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        width: 235px;
+    }
+    .main {
+        margin-top: 136px;
+    }
+    .contenedor-productos .producto {
+        width: 22%;
+    }
+    .main-header {
+        text-align: center;
+        height: 120px;
+    }
+    .main-header-top-bar {
+        display: flex;
+        align-items: center;
+        border: 0;
+    }
+    .main-navbar .right-navbar {
+        margin-right: 60px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    .copy-header {
+        max-width: none;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .contenedor-logo-busqueda {
+        width: 64%;
+    }
+    .barra-busqueda {
+        font-size: 19px;
+    }
+    .create-form {
+        margin-top: 140px;
+    }
+    .login-form {
+        margin-top: 160px;
+    }
+    .contenedor-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 74px;
+    }
+    .iconos-footer {
+        justify-content: center;
+    }
+    .texto-footer {
+        font-size: 13 px;
+        width: 450px;
     }
 }
 
@@ -480,7 +485,6 @@ footer {
     main {
         margin-top: 164px;
     }
-
     .contenedor-logo-busqueda {
         width: 71%;
     }
@@ -495,5 +499,11 @@ footer {
     }
     .main-navbar {
         margin-top: 0px;
+    }
+    .create-form {
+        margin-top: 175px;
+    }
+    .login-form {
+        margin-top: 200px;
     }
 }
