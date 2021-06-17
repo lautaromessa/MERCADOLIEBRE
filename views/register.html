@@ -22,10 +22,14 @@
         <div class="main-header-top-bar">
             <div class="contenedor-logo-busqueda">
                 <a href="/"><img src="/images/logo-mercado-liebre.svg" class="logo" alt="Logo Mercado Liebre"></a>
-                <div class="barra-busqueda"><a href="#"></a>
-                    <input type="search" name="barra-busqueda" placeholder="Buscar productos, marcas, etc."
-                        style="width: 100%;" class="control"></input>
-                </div>
+                <form action="method" class="busqueda">
+                    <input type="text" placeholder="Buscar productos, marcas, etc." class="barra-busqueda">
+                    <div class="contenedor-icono-busqueda">
+                        <button type="submit" class="icono-busqueda" >
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
             </div>
             <h3 class="copy-header"><i class="fas fa-hand-holding-usd icono-cuotas"></i>Comprá en cuotas y sin tarjeta
                 de crédito
@@ -46,10 +50,11 @@
             </ul>
         </nav>
 
-        <div><a href="#" class="burger-menu">
+        <div class="contenedor-burger-menu"><a href="#" class="burger-menu">
                 <i class="fas fa-bars"></i>
             </a>
         </div>
+
     </header>
 
     <form action="" method="POST" class="create-form">

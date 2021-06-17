@@ -248,6 +248,16 @@ footer {
     display: block;
     font-weight: bold;
 }
+.control {
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
 
 .busqueda {
     width: 95%;
@@ -487,6 +497,7 @@ footer {
     }
     .login-form {
         margin-top: 160px;
+        margin-bottom: 285px;
     }
     .contenedor-footer {
         display: flex;
