@@ -20,13 +20,16 @@
 <body>
     <header class="main-header">
         <div class="main-header-top-bar">
-
             <div class="contenedor-logo-busqueda">
                 <a href="/"><img src="/images/logo-mercado-liebre.svg" class="logo" alt="Logo Mercado Liebre"></a>
-                <div class="barra-busqueda"><a href="#"></a>
-                    <input type="search" name="barra-busqueda" placeholder="Buscar productos, marcas, etc."
-                        style="width: 100%;" class="control">
-                </div>
+                <form action="method" class="busqueda">
+                    <input type="text" placeholder="Buscar productos, marcas, etc." class="barra-busqueda">
+                    <div class="contenedor-icono-busqueda">
+                        <button type="submit" class="icono-busqueda" >
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
             </div>
             <h3 class="copy-header"><i class="fas fa-hand-holding-usd icono-cuotas"></i>Comprá en cuotas y sin tarjeta
                 de crédito
@@ -69,16 +72,12 @@
                 <div class="imagenes-productos">
                     <img src="/images/img-cafetera-moulinex.jpg" width="100%">
                 </div>
-                <div class="caja-datos">
-                    <div class="contenedor-precio-descuento">
-                        <i class="fas fa-shipping-fast iconos-envio"></i>
-                        <p class="precios">$6770</p>
-                        <p class="descuentos">40% OFF</p>
-                    </div>
-                    <div class="contenedor-producto-descripcion">
-                        <p>Cafetera Moulinex</p>
-                    </div>
+                <div class="contenedor-precio-descuento">
+                    <i class="fas fa-shipping-fast iconos-envio"></i>
+                    <p class="precios">$6770</p>
+                    <p class="descuentos">40% OFF</p>
                 </div>
+                <h4 class="contenedor-producto-descripcion">Cafetera Moulinex</h4>
             </article>
 
             <article class="producto">
